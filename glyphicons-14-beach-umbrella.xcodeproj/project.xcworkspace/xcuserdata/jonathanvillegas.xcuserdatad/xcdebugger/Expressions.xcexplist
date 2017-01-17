@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__77-[CreateEventController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2:CreateEventController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.refURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapUIViewController viewDidLoad]:MapUIViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.userLocation.location.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapUIViewController tabBar:didSelectItem:]:MapUIViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__77-[CreateEventController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke:CreateEventController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[imageRep pathname]">
+            </PersistentString>
+            <PersistentString
+               value = "task.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegisterController passwordEditEnd:]:RegisterController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(self.userNameTextField.text.length &gt; 0 &amp;&amp; self.phoneNoTextField.text.length &gt; 0 &amp;&amp; self.emailTextField.text.length &gt; 0 &amp;&amp; self.passwordTextField.text.length &gt; 0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEventController imagePickerController:didFinishPickingMediaWithInfo:]:CreateEventController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[filePath length]">
+            </PersistentString>
+            <PersistentString
+               value = "chosenImage">
+            </PersistentString>
+            <PersistentString
+               value = "refURL.path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEvent2ATimeModalController prepareForSegue:sender:]:CreateEvent2ATimeModalController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEventController prepareForSegue:sender:]:CreateEventController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.ImageUpload.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEvent2Controller StartDateSelected:]:CreateEvent2Controller.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "event2A.StartTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MapUIViewController mapView:didUpdateUserLocation:]:MapUIViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "annotation.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEventController viewDidLoad]:CreateEventController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self._testView.bounds.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "CGSizeMake(300, 300 + self._testView.bounds.size.height);">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEvent2ADateModalController prepareForSegue:sender:]:CreateEvent2ADateModalController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.StartDatePicker.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateEvent2AController pickingDone:]:CreateEvent2AController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.StartDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1128FA1DBA24A8009CBFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1128F91DBA24A8009CBFA6 /* main.m */; };
+		CA1128FD1DBA24A8009CBFA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1128FC1DBA24A8009CBFA6 /* AppDelegate.m */; };
+		CA1129001DBA24A8009CBFA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1128FF1DBA24A8009CBFA6 /* ViewController.m */; };
+		CA1129031DBA24A8009CBFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1129011DBA24A8009CBFA6 /* Main.storyboard */; };
+		CA1129061DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA1129041DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodeld */; };
+		CA1129081DBA24A9009CBFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1129071DBA24A9009CBFA6 /* Assets.xcassets */; };
+		CA11290B1DBA24A9009CBFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1129091DBA24A9009CBFA6 /* LaunchScreen.storyboard */; };
+		CA1129161DBA24A9009CBFA6 /* EventsAppUI2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1129151DBA24A9009CBFA6 /* EventsAppUI2UITests.m */; };
+		CA1129291DBE143F009CBFA6 /* Mapbox.framework in Embed Frameworks (2 items) */ = {isa = PBXBuildFile; fileRef = CA1129271DBE143F009CBFA6 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CA11292E1DBE6FA7009CBFA6 /* MapSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11292D1DBE6FA7009CBFA6 /* MapSettingsViewController.m */; };
+		CA1129341DC00E7A009CBFA6 /* CreateEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1129331DC00E7A009CBFA6 /* CreateEventController.m */; };
+		CA302E6F1DD1544A00052FD7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA302E6E1DD1544A00052FD7 /* AssetsLibrary.framework */; };
+		CA319BF21DCBE909001B5304 /* CreateEvent2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CA319BF11DCBE909001B5304 /* CreateEvent2Controller.m */; };
+		CAB281221DC3884C0048CFC4 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB281211DC3884C0048CFC4 /* RegisterController.m */; };
+		CAB281251DC79CE40048CFC4 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB281241DC79CE40048CFC4 /* KeychainWrapper.m */; };
+		CAD41B0C1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD41B0B1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.m */; };
+		CAF39E0C1DD41094002F2595 /* CreateEvent2ADateModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF39E0B1DD41093002F2595 /* CreateEvent2ADateModalController.m */; };
+		CAF39E0F1DD4A190002F2595 /* CreateEvent2ATimeModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF39E0E1DD4A190002F2595 /* CreateEvent2ATimeModalController.m */; };
+		CAF5017D1DCBAE800026910E /* AWSS3.framework in Embed Frameworks (2 items) */ = {isa = PBXBuildFile; fileRef = CAF5017C1DCBAE800026910E /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAF5017F1DCBAF9C0026910E /* AWSCore.framework in Embed Frameworks (2 items) */ = {isa = PBXBuildFile; fileRef = CAF5017E1DCBAF9C0026910E /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAFDE2981DD54DF3000E0359 /* MapUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDE2971DD54DF3000E0359 /* MapUIViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1129121DBA24A9009CBFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1128ED1DBA24A8009CBFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1128F41DBA24A8009CBFA6;
+			remoteInfo = EventsAppUI2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA11292A1DBE143F009CBFA6 /* Embed Frameworks (2 items) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CA1129291DBE143F009CBFA6 /* Mapbox.framework in Embed Frameworks (2 items) */,
+				CAF5017F1DCBAF9C0026910E /* AWSCore.framework in Embed Frameworks (2 items) */,
+				CAF5017D1DCBAE800026910E /* AWSS3.framework in Embed Frameworks (2 items) */,
+			);
+			name = "Embed Frameworks (2 items)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA1128F51DBA24A8009CBFA6 /* EventsAppUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsAppUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1128F91DBA24A8009CBFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1128FB1DBA24A8009CBFA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1128FC1DBA24A8009CBFA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1128FE1DBA24A8009CBFA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1128FF1DBA24A8009CBFA6 /* ViewController.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; tabWidth = 2; };
+		CA1129021DBA24A8009CBFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1129051DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsAppUI2.xcdatamodel; sourceTree = "<group>"; };
+		CA1129071DBA24A9009CBFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA11290A1DBA24A9009CBFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA11290C1DBA24A9009CBFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1129111DBA24A9009CBFA6 /* EventsAppUI2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsAppUI2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1129151DBA24A9009CBFA6 /* EventsAppUI2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventsAppUI2UITests.m; sourceTree = "<group>"; };
+		CA1129171DBA24A9009CBFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1129271DBE143F009CBFA6 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		CA11292C1DBE6FA7009CBFA6 /* MapSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapSettingsViewController.h; path = ../MapSettingsViewController.h; sourceTree = "<group>"; };
+		CA11292D1DBE6FA7009CBFA6 /* MapSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapSettingsViewController.m; path = ../MapSettingsViewController.m; sourceTree = "<group>"; };
+		CA1129321DC00E7A009CBFA6 /* CreateEventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateEventController.h; sourceTree = "<group>"; };
+		CA1129331DC00E7A009CBFA6 /* CreateEventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateEventController.m; sourceTree = "<group>"; };
+		CA302E6E1DD1544A00052FD7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CA319BF01DCBE909001B5304 /* CreateEvent2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEvent2Controller.h; path = ../CreateEvent2Controller.h; sourceTree = "<group>"; };
+		CA319BF11DCBE909001B5304 /* CreateEvent2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateEvent2Controller.m; path = ../CreateEvent2Controller.m; sourceTree = "<group>"; };
+		CAB281201DC3884C0048CFC4 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterController.h; path = ../RegisterController.h; sourceTree = "<group>"; };
+		CAB281211DC3884C0048CFC4 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterController.m; path = ../RegisterController.m; sourceTree = "<group>"; };
+		CAB281231DC79CE40048CFC4 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		CAB281241DC79CE40048CFC4 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		CAB281261DC7A3F20048CFC4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CAD41B0A1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoriesCollectionCollectionViewController.h; path = ../CategoriesCollectionCollectionViewController.h; sourceTree = "<group>"; };
+		CAD41B0B1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoriesCollectionCollectionViewController.m; path = ../CategoriesCollectionCollectionViewController.m; sourceTree = "<group>"; };
+		CAF39E0A1DD41093002F2595 /* CreateEvent2ADateModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEvent2ADateModalController.h; path = ../CreateEvent2ADateModalController.h; sourceTree = "<group>"; };
+		CAF39E0B1DD41093002F2595 /* CreateEvent2ADateModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateEvent2ADateModalController.m; path = ../CreateEvent2ADateModalController.m; sourceTree = "<group>"; };
+		CAF39E0D1DD4A190002F2595 /* CreateEvent2ATimeModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEvent2ATimeModalController.h; path = ../CreateEvent2ATimeModalController.h; sourceTree = "<group>"; };
+		CAF39E0E1DD4A190002F2595 /* CreateEvent2ATimeModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateEvent2ATimeModalController.m; path = ../CreateEvent2ATimeModalController.m; sourceTree = "<group>"; };
+		CAF501791DCBADC70026910E /* EventsAppUI2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EventsAppUI2.xcodeproj; sourceTree = "<group>"; };
+		CAF5017C1DCBAE800026910E /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSS3.framework; sourceTree = "<group>"; };
+		CAF5017E1DCBAF9C0026910E /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
+		CAFDE2961DD54DF3000E0359 /* MapUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapUIViewController.h; path = ../MapUIViewController.h; sourceTree = "<group>"; };
+		CAFDE2971DD54DF3000E0359 /* MapUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapUIViewController.m; path = ../MapUIViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1128F21DBA24A8009CBFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA302E6F1DD1544A00052FD7 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11290E1DBA24A9009CBFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1128EC1DBA24A8009CBFA6 = {
+			isa = PBXGroup;
+			children = (
+				CA302E6E1DD1544A00052FD7 /* AssetsLibrary.framework */,
+				CAF5017E1DCBAF9C0026910E /* AWSCore.framework */,
+				CAF5017C1DCBAE800026910E /* AWSS3.framework */,
+				CAF501791DCBADC70026910E /* EventsAppUI2.xcodeproj */,
+				CA1129271DBE143F009CBFA6 /* Mapbox.framework */,
+				CA1128F71DBA24A8009CBFA6 /* EventsAppUI2 */,
+				CA1129141DBA24A9009CBFA6 /* EventsAppUI2UITests */,
+				CA1128F61DBA24A8009CBFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1128F61DBA24A8009CBFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1128F51DBA24A8009CBFA6 /* EventsAppUI2.app */,
+				CA1129111DBA24A9009CBFA6 /* EventsAppUI2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1128F71DBA24A8009CBFA6 /* EventsAppUI2 */ = {
+			isa = PBXGroup;
+			children = (
+				CAD41B0A1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.h */,
+				CAD41B0B1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.m */,
+				CAB281201DC3884C0048CFC4 /* RegisterController.h */,
+				CAB281211DC3884C0048CFC4 /* RegisterController.m */,
+				CA1129321DC00E7A009CBFA6 /* CreateEventController.h */,
+				CA1129331DC00E7A009CBFA6 /* CreateEventController.m */,
+				CA319BF01DCBE909001B5304 /* CreateEvent2Controller.h */,
+				CA319BF11DCBE909001B5304 /* CreateEvent2Controller.m */,
+				CAF39E0A1DD41093002F2595 /* CreateEvent2ADateModalController.h */,
+				CAF39E0B1DD41093002F2595 /* CreateEvent2ADateModalController.m */,
+				CAF39E0D1DD4A190002F2595 /* CreateEvent2ATimeModalController.h */,
+				CAF39E0E1DD4A190002F2595 /* CreateEvent2ATimeModalController.m */,
+				CAFDE2961DD54DF3000E0359 /* MapUIViewController.h */,
+				CAFDE2971DD54DF3000E0359 /* MapUIViewController.m */,
+				CA11292C1DBE6FA7009CBFA6 /* MapSettingsViewController.h */,
+				CA11292D1DBE6FA7009CBFA6 /* MapSettingsViewController.m */,
+				CA1128FE1DBA24A8009CBFA6 /* ViewController.h */,
+				CA1128FF1DBA24A8009CBFA6 /* ViewController.m */,
+				CA1129071DBA24A9009CBFA6 /* Assets.xcassets */,
+				CA1129011DBA24A8009CBFA6 /* Main.storyboard */,
+				CA1129091DBA24A9009CBFA6 /* LaunchScreen.storyboard */,
+				CA11290C1DBA24A9009CBFA6 /* Info.plist */,
+				CA1129041DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodeld */,
+				CA1128F81DBA24A8009CBFA6 /* Supporting Files */,
+			);
+			path = EventsAppUI2;
+			sourceTree = "<group>";
+		};
+		CA1128F81DBA24A8009CBFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA1128FB1DBA24A8009CBFA6 /* AppDelegate.h */,
+				CA1128FC1DBA24A8009CBFA6 /* AppDelegate.m */,
+				CA1128F91DBA24A8009CBFA6 /* main.m */,
+				CAB281231DC79CE40048CFC4 /* KeychainWrapper.h */,
+				CAB281241DC79CE40048CFC4 /* KeychainWrapper.m */,
+				CAB281261DC7A3F20048CFC4 /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA1129141DBA24A9009CBFA6 /* EventsAppUI2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1129151DBA24A9009CBFA6 /* EventsAppUI2UITests.m */,
+				CA1129171DBA24A9009CBFA6 /* Info.plist */,
+			);
+			path = EventsAppUI2UITests;
+			sourceTree = "<group>";
+		};
+		CAF5017A1DCBADC70026910E /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1128F41DBA24A8009CBFA6 /* EventsAppUI2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA11291A1DBA24A9009CBFA6 /* Build configuration list for PBXNativeTarget "EventsAppUI2" */;
+			buildPhases = (
+				CA1128F31DBA24A8009CBFA6 /* Resources */,
+				CA1128F11DBA24A8009CBFA6 /* Sources */,
+				CA1128F21DBA24A8009CBFA6 /* Frameworks */,
+				CA11292A1DBE143F009CBFA6 /* Embed Frameworks (2 items) */,
+				CA11292B1DBE163F009CBFA6 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventsAppUI2;
+			productName = EventsAppUI2;
+			productReference = CA1128F51DBA24A8009CBFA6 /* EventsAppUI2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1129101DBA24A9009CBFA6 /* EventsAppUI2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA11291D1DBA24A9009CBFA6 /* Build configuration list for PBXNativeTarget "EventsAppUI2UITests" */;
+			buildPhases = (
+				CA11290D1DBA24A9009CBFA6 /* Sources */,
+				CA11290E1DBA24A9009CBFA6 /* Frameworks */,
+				CA11290F1DBA24A9009CBFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1129131DBA24A9009CBFA6 /* PBXTargetDependency */,
+			);
+			name = EventsAppUI2UITests;
+			productName = EventsAppUI2UITests;
+			productReference = CA1129111DBA24A9009CBFA6 /* EventsAppUI2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1128ED1DBA24A8009CBFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jonathan Villegas";
+				TargetAttributes = {
+					CA1128F41DBA24A8009CBFA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BPPT344M5F;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					CA1129101DBA24A9009CBFA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA1128F41DBA24A8009CBFA6;
+					};
+				};
+			};
+			buildConfigurationList = CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "glyphicons-14-beach-umbrella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1128EC1DBA24A8009CBFA6;
+			productRefGroup = CA1128F61DBA24A8009CBFA6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CAF5017A1DCBADC70026910E /* Products */;
+					ProjectRef = CAF501791DCBADC70026910E /* EventsAppUI2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CA1128F41DBA24A8009CBFA6 /* EventsAppUI2 */,
+				CA1129101DBA24A9009CBFA6 /* EventsAppUI2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1128F31DBA24A8009CBFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11290B1DBA24A9009CBFA6 /* LaunchScreen.storyboard in Resources */,
+				CA1129081DBA24A9009CBFA6 /* Assets.xcassets in Resources */,
+				CA1129031DBA24A8009CBFA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11290F1DBA24A9009CBFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA11292B1DBE163F009CBFA6 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"\n\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1128F11DBA24A8009CBFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB281251DC79CE40048CFC4 /* KeychainWrapper.m in Sources */,
+				CAB281221DC3884C0048CFC4 /* RegisterController.m in Sources */,
+				CA1129341DC00E7A009CBFA6 /* CreateEventController.m in Sources */,
+				CAF39E0C1DD41094002F2595 /* CreateEvent2ADateModalController.m in Sources */,
+				CA319BF21DCBE909001B5304 /* CreateEvent2Controller.m in Sources */,
+				CA1129001DBA24A8009CBFA6 /* ViewController.m in Sources */,
+				CA11292E1DBE6FA7009CBFA6 /* MapSettingsViewController.m in Sources */,
+				CA1128FD1DBA24A8009CBFA6 /* AppDelegate.m in Sources */,
+				CA1128FA1DBA24A8009CBFA6 /* main.m in Sources */,
+				CAFDE2981DD54DF3000E0359 /* MapUIViewController.m in Sources */,
+				CAD41B0C1DCA725E00E05435 /* CategoriesCollectionCollectionViewController.m in Sources */,
+				CAF39E0F1DD4A190002F2595 /* CreateEvent2ATimeModalController.m in Sources */,
+				CA1129061DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA11290D1DBA24A9009CBFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1129161DBA24A9009CBFA6 /* EventsAppUI2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1129131DBA24A9009CBFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1128F41DBA24A8009CBFA6 /* EventsAppUI2 */;
+			targetProxy = CA1129121DBA24A9009CBFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1129011DBA24A8009CBFA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1129021DBA24A8009CBFA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1129091DBA24A9009CBFA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA11290A1DBA24A9009CBFA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1129181DBA24A9009CBFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1129191DBA24A9009CBFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA11291B1DBA24A9009CBFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EventsAppUI2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionic.EventsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EventsAppUI2/EventsAppUI2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA11291C1DBA24A9009CBFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EventsAppUI2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zionic.EventsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EventsAppUI2/EventsAppUI2-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA11291E1DBA24A9009CBFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EventsAppUI2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rich.EventsAppUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EventsAppUI2;
+			};
+			name = Debug;
+		};
+		CA11291F1DBA24A9009CBFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EventsAppUI2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rich.EventsAppUI2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EventsAppUI2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "glyphicons-14-beach-umbrella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1129181DBA24A9009CBFA6 /* Debug */,
+				CA1129191DBA24A9009CBFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA11291A1DBA24A9009CBFA6 /* Build configuration list for PBXNativeTarget "EventsAppUI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA11291B1DBA24A9009CBFA6 /* Debug */,
+				CA11291C1DBA24A9009CBFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA11291D1DBA24A9009CBFA6 /* Build configuration list for PBXNativeTarget "EventsAppUI2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA11291E1DBA24A9009CBFA6 /* Debug */,
+				CA11291F1DBA24A9009CBFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA1129041DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA1129051DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodel */,
+			);
+			currentVersion = CA1129051DBA24A9009CBFA6 /* EventsAppUI2.xcdatamodel */;
+			path = EventsAppUI2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA1128ED1DBA24A8009CBFA6 /* Project object */;
+}

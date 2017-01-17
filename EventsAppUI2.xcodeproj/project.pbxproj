@@ -261,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "glyphicons-14-beach-umbrella" */;
+			buildConfigurationList = CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "EventsAppUI2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -532,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "glyphicons-14-beach-umbrella" */ = {
+		CA1128F01DBA24A8009CBFA6 /* Build configuration list for PBXProject "EventsAppUI2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA1129181DBA24A9009CBFA6 /* Debug */,

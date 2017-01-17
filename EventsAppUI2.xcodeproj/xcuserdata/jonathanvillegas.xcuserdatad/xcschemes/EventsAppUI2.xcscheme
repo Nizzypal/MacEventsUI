@@ -17,7 +17,7 @@
                BlueprintIdentifier = "CA1128F41DBA24A8009CBFA6"
                BuildableName = "EventsAppUI2.app"
                BlueprintName = "EventsAppUI2"
-               ReferencedContainer = "container:glyphicons-14-beach-umbrella.xcodeproj">
+               ReferencedContainer = "container:EventsAppUI2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CA1129101DBA24A9009CBFA6"
                BuildableName = "EventsAppUI2UITests.xctest"
                BlueprintName = "EventsAppUI2UITests"
-               ReferencedContainer = "container:glyphicons-14-beach-umbrella.xcodeproj">
+               ReferencedContainer = "container:EventsAppUI2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "CA1128F41DBA24A8009CBFA6"
             BuildableName = "EventsAppUI2.app"
             BlueprintName = "EventsAppUI2"
-            ReferencedContainer = "container:glyphicons-14-beach-umbrella.xcodeproj">
+            ReferencedContainer = "container:EventsAppUI2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "CA1128F41DBA24A8009CBFA6"
             BuildableName = "EventsAppUI2.app"
             BlueprintName = "EventsAppUI2"
-            ReferencedContainer = "container:glyphicons-14-beach-umbrella.xcodeproj">
+            ReferencedContainer = "container:EventsAppUI2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "CA1128F41DBA24A8009CBFA6"
             BuildableName = "EventsAppUI2.app"
             BlueprintName = "EventsAppUI2"
-            ReferencedContainer = "container:glyphicons-14-beach-umbrella.xcodeproj">
+            ReferencedContainer = "container:EventsAppUI2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
